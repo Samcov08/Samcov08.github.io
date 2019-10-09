@@ -78,13 +78,13 @@
                 <h2>About Me</h2>
                 <p>Hello there! My name is Samantha Covington. I was born in Dallas, TX and was raised in a small town called Combine, TX.</p>
 
+                <!-- <h3>Languages</h3> -->
+                <p>I have been studying web development at SMU. I am experianced in numerous web-based languages like: HTML5, CSS3, JavaScript, jQuery, Node.js, Java, Express.js, React.js, Database Theory, MongoDB, MySQL, MongoDB, Heroku, Command Line, and
+                    Git just to name a few. </p>
+
                 FACTS ABOUT ME:
                 <button id="factsbutton" class="btn btn-primary">Click Me</button>
                 <div id="facts"></div>
-
-                <h3>Languages</h3>
-                <p>I have been studying web development at SMU. I am experianced in numerous web-based languages like: HTML5, CSS3, JavaScript, jQuery, Node.js, Java, Express.js, React.js, Database Theory, MongoDB, MySQL, MongoDB, Heroku, Command Line, and
-                    Git just to name a few. </p>
             </div>
 
             <!-- close row div -->
@@ -103,7 +103,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
-        var facts = ["Hockey is my favorite sport", "I used to be a professional Massage Therapist", "I love to fish", "Kayaking is one of my favorite pass times", "I am 1/2 Italian"]
+        var facts = ["I love ranch on my pizza!", "Hockey is my favorite sport!", "I used to be a professional Massage Therapist.", "I love to fish!", "Kayaking is one of my favorite pass times.", "I am 1/2 Italian!"]
         $(document).ready(function() {
             $("#facts").text(facts[Math.floor(Math.random() * facts.length)]);
             $("#factsbutton").click(function() {
