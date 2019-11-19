@@ -97,11 +97,15 @@ footer {
 }
 
 h3.title {
-    color: whitesmoke;
-    position: relative;
-    top: -25px;
+    color:#fff;
+    display: inline-block;
     /* width: 437px;
     height: 328px; */
+}
+
+.titlebar{
+    position: relative;
+        top: -28px; 
 }
 
 label,
@@ -133,3 +137,22 @@ input[type=submit] {
     background: #4aaaa5;
     border: 0 none;
 }
+
+.icon {
+    border: solid 1px black;
+    /* border-radius: 50%; */
+    width: 13%;
+    float: right;
+    margin-top: 2px;
+
+}
+
+#icon-left{
+    margin-right: 5px;
+
+}
+.icon>img {
+width: 50%;
+
+}
+
