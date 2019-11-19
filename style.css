@@ -86,13 +86,14 @@ footer {
 }
 
 h3.title {
-  color: #fff;
+  color:black;
   display: inline-block;
 }
 
 .titlebar {
   position: relative;
   top: -28px;
+  
 }
 
 label,
