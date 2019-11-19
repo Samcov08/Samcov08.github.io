@@ -77,65 +77,66 @@ footer {
 }
 
 #htmlFooter {
-  margin: 100px;
-  margin-left: 1px;
-  font-size: 12px;
-  color: black;
-  text-align: center;
-  border: 1px solid #4aaaa5;
+    margin: 100px;
+    margin-left: 1px;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    border: 1px solid #4aaaa5;
 }
 
 h3.title {
-  color:black;
-  display: inline-block;
+    color:black;
+    display: inline-block;
 }
 
 .titlebar {
-  position: relative;
-  top: -28px;
-  
+    position: relative;
+    top: -28px;
+    
 }
 
 label,
 input[type="text"],
 input[type="email"],
 textarea {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #ddd;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
 }
 
 textarea {
-  height: 200px;
+    height: 200px;
 }
 
 input[type="submit"] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #fff;
-  cursor: pointer;
-  background: #4aaaa5;
-  border: 0 none;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
 }
 
 .icon {
-  border: solid 1px black;
-  width: 13%;
-  float: right;
-  margin-top: 2px;
+    border: solid 1px black;
+    width: 13%;
+    float: right;
+    margin-top: 2px;
 }
 
 #icon-left {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 .icon > img {
-  width: 50%;
+    width: 50%;
 }
+

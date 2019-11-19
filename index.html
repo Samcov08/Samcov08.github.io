@@ -69,13 +69,15 @@
         <!-- close container div -->
     </div>
 
-    <footer id="htmlFooter">
-        <div class="container">
-            FACTS ABOUT ME:
-            <button id="factsbutton" class="btn btn-primary">Click Me</button>
-            <div id="facts">
-            </div>
+    <div class="container">
+        <p>FUN FACTS ABOUT ME:</p>
+        <button id="factsbutton" class="btn btn-primary">Click Here</button>
+        <div id="facts">
         </div>
+    </div>
+
+    
+    <footer id="htmlFooter">
         <div class="container">
             Copyright &copy;
         </div>
@@ -93,7 +95,7 @@
         crossorigin="anonymous"></script>
     <!-- Code for facts about me  -->
     <script>
-        var facts = ["I love ranch on my pizza!", "Hockey is my favorite sport!", "I used to be a professional Massage Therapist.", "I love to fish!", "Kayaking is one of my favorite hobbies.", "I am 1/2 Italian!", "I enjoy camping", "I am the oldest of 7!"]
+        var facts = ["I have 6 brothers", "I love ranch on my pizza!", "Hockey is my favorite sport!", "I used to be a professional Massage Therapist.", "I love to fish!", "Kayaking is one of my favorite hobbies.", "I am 1/2 Italian!", "I enjoy camping", "I am the oldest of 7!"]
         $(document).ready(function () {
             $("#facts").text(facts[Math.floor(Math.random() * facts.length)]);
             $("#factsbutton").click(function () {
